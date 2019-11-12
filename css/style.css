@@ -1,7 +1,5 @@
 .sibn {
-  background-image: url("../images/spa.jpeg");
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url("../images/spa.jpeg") no-repeat center center fixed;
   background-size: cover;
   width: 100%;
   height: 100vh;
