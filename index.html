@@ -72,20 +72,11 @@
                   <li>Beard Styling @100 Kshs</li>
                   <li>Hair dying @ 3500 Kshs</li>
                 </ul>
-                <a href="#modal"><button>book now</button></a>
+                <button id="model1"><a href="#model">Book now</a></button>
               </div>
             </div>
           </div>
         </div>
-
-        <!-- <h2>barber</h2>
-            <img src="images/br0.jpeg" alt="" width="80%" height="130vh" />
-            <p>
-              we are provide barber services, such as cutting, trimming
-              shampooing, and styling hair, trimming beards, or giving shaves.
-            </p>
-            <a href="booknow.html"><button>book now</button></a>
-          </div> -->
         <div class="col-md-4 massage">
           <div class="flip-card">
             <div class="flip-card-inner">
@@ -105,23 +96,12 @@
                   <li>Target muscle @ 1500 Kshs</li>
                   <li>Steam Room @300 Kshs per hour</li>
                 </ul>
-                <a href="#modal"><button>book now</button></a>
+                <button id="model2"><a href="#model">Book now </a></button>
+                <!-- <button id="model1"><a href="#model">book now</a></button> -->
               </div>
             </div>
           </div>
         </div>
-
-        <!-- <div class="col-md-4 massage">
-            <h1>massage</h1>
-            <img src="images/msssg.jpg" alt="" width="80%" height="130vh" />
-            <p>
-              We bring you same-day, in-home massage. wellness on the way Save
-              up to 30% on every massage with a sibn spa, plus a friends &
-              family discount, rollover credits, and much more. There’s never
-              been a better time to join.
-            </p>
-            <a href="booknow.html"><button>book now</button></a>
-          </div> -->
         <div class="col-md-4 salon">
           <div class="flip-card">
             <div class="flip-card-inner">
@@ -137,33 +117,48 @@
                 <ul>
                   <li>Make up @ 950 Kshs</li>
                   <li>Hair Styling @3 000 Kshs</li>
-                  <li>MAnicure @ 150 Kshs</li>
+                  <li>Manicure @ 150 Kshs</li>
                   <li>Pedicure @ 250 Kshs</li>
                   <li>Dying or Hair straightening @300 Kshs </li>
                 </ul>
-                <a href="#modal"><button>book now</button></a>
+                <button id="model3"><a href="#model">Book now</a></button>
+                <!-- <button id="model1"><a href="#model">book now</a></button> -->
               </div>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <!-- Trigger/Open The Modal -->
 
-
-
-        <!-- <div class="col-md-4 salon">
-            <h1>salon</h1>
-            <img src="images/mk1.jpeg" alt="" width="80%" height="130vh" />
-            <p>
-              Our staff always performs a hair type and condition assessment, to
-              ensure you achieve the right look. We offer a wide and
-              comprehensive range of hair services that meet and exceed our
-              client’s expectations. 
-            </p>
-            <a href="booknow.html"><button>book now</button></a>
-          </div> -->
+    <!-- The Modal -->
+    <div id="model" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Book a Spot</h2>
+        </div>
+        <div class="modal-body">
+          <form id="spot">
+            <p>Thank you for choosing us.</p>
+            <input type="text" name="name" placeholder="Type your name here; example: John Doe" required>
+            <br>
+            <input type="number" name="phone" placeholder="Type your phone number here; example: +254 701 0000 000" required>
+            <br>
+            <input type="time" name="timestamp" placeholder="schedule time" required>
+            <br>
+            <button id="reserve"><a href="#model">Reserve Spot</a></button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <h3>Sibn Spa</h3>
+        </div>
       </div>
     </div>
 
-    <div class="footer">
+
+    <div class="footer container">
       <div class="row">
         <div id="footer" class="col-md-4">
           <div class="card">
@@ -172,11 +167,11 @@
             </div>
             <div class="card-body">
               <ul>
-                <li><a href="#">SaLON</a></li>
+                <li><a href="#">Our Staff</a></li>
+                <li><a href="#">Salon</a></li>
                 <li><a href="#">Massage</a></li>
                 <li><a href="#">Barber</a></li>
               </ul>
-
             </div>
           </div>
           <br>
@@ -208,6 +203,10 @@
 
       </div>
     </div>
+  </div>
+  </div>
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/main.js"></script>
   </div>
 </body>
 
