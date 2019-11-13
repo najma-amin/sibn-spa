@@ -1,45 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>SIBN SPA BEAUTY</title>
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" types="text/css" href="css/style.css" />
-  </head>
-  <body>
-    <div>
-      <ul class="navbar">
-        <li>
-          <a href="index.html"><button>home</button></a>
-        </li>
-        <li>
-          <a href="services.html"><button>services</button></a>
-        </li>
-        <li>
-          <a href="contact.html"><button>contact</button></a>
-        </li>
-      </ul>
-    </div>
-    <div class="container-fluid sibn">
-      <div class="container">
-        <em><h1>WELCOME TO SIBN SPA BEAUTY</h1></em>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>SIBN SPA BEAUTY</title>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" types="text/css" href="css/style.css" />
+</head>
+
+<body>
+  <div class="container-fluid sibn">
+    <div class="container">
+      <div class="navbar">
+          <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <a class="navbar-brand pb-2" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Services <span class="sr-only">(current)</span>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Salon</a></li>
+                    <li><a class="dropdown-item" href="#">Massage</a></li>
+                    <li><a class="dropdown-item" href="#">Barber</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Reserve</a>
+                </li>
+
+              </ul>
+            </div>
+
+        </div>
+        <em>
+          <h1>WELCOME TO SIBN SPA BEAUTY</h1>
+        </em>
       </div>
     </div>
     <br />
     <div class="container">
-      <h2 class="text-center">OUR SERVICES</h2>
-      <div>
-        <div class="row col-12 text-center home">
+      <div class="serices">
+        <h2 class="text-center">OUR SERVICES</h2>
+        <div class="row col-12 text-center">
           <div class="col-md-4 barber">
             <h2>barber</h2>
             <img src="images/br0.jpeg" alt="" width="80%" height="130vh" />
             <p>
-              we are provide barber services, such as cutting, trimming,
+              we are provide barber services, such as cutting, trimming
               shampooing, and styling hair, trimming beards, or giving shaves.
             </p>
-            <a href="booknow.html"><button>book now</button></a>
           </div>
 
           <div class="col-md-4 massage">
@@ -51,7 +72,6 @@
               family discount, rollover credits, and much more. There’s never
               been a better time to join.
             </p>
-            <a href="booknow.html"><button>book now</button></a>
           </div>
           <div class="col-md-4 salon">
             <h1>salon</h1>
