@@ -1,9 +1,16 @@
 .sibn {
-  background: url("../images/spa.jpeg") no-repeat center center fixed;
+  background: url("../images/BD2.jpg") no-repeat center center fixed;
   background-size: cover;
   width: 100%;
   height: 100vh;
   text-align: center;
+  font-family: 'Caveat', cursive;
+font-size: 20px;
+}
+.hh h1{
+padding-top: 25%;
+font-family: 'Caveat', cursive;
+font-size:80px;
 }
 .home {
   display: flex;
@@ -23,7 +30,7 @@
   margin-top:-6px;
 }
 
-/* rotate caret on hover */
+
 .dropdown-menu > li > a:hover:after {
   text-decoration: underline;
   transform: rotate(-90deg);
@@ -35,7 +42,4 @@
   width: 600px;
 }
 
-.navbar {
-  color: brown;
-  text-align: center;
-}
+
