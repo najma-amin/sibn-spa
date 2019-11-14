@@ -139,9 +139,13 @@
   cursor: pointer;
 }
 
+.modal{
+  width: 100vw;
+}
+
 .modal-header {
   padding: 2px 16px;
-  background-color: #5cb85c;
+  background-color:#C71585;
   color: white;
 }
 
@@ -149,6 +153,9 @@
 
 .modal-footer {
   padding: 2px 16px;
-  background-color: #5cb85c;
+  background-color: #C71585;
   color: white;
+}
+.copy{
+  text-align: center;
 }
