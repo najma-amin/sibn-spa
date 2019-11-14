@@ -15,7 +15,7 @@
 .salon,
 .barber {
   width: 500px;
-  background-color: palevioletred;
+ 
 }
 .navbar-nav li:hover > ul.dropdown-menu {
   display: block;
