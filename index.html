@@ -69,7 +69,7 @@
                 <ul>
                   <li>Hair Styling @ 250 Kshs</li>
                   <li>Beard Styling @100 Kshs</li>
-                  <li>Hair dying @ 3500 Kshs</li>
+                  <li>Hair dying @ 350 Kshs</li>
                 </ul>
                 <button id="model1"><a href="#model">Book now</a></button>
               </div>
@@ -126,7 +126,7 @@
         </div>
       </div>
     </div>
-    
+
     <div id="model" class="modal">
       <div class="modal-content">
         <div class="modal-header">
@@ -139,15 +139,23 @@
             </div>
           </div>
           <div class="row">
-              <span class="close">&times;</span>
+            <span class="close">&times;</span>
           </div>
         </div>
         <div class="modal-body">
           <form id="spot">
+              <div id="list1" class="dropdown-check-list" tabindex="100">
+                  <span class="anchor">Select Barber service</span>
+                  <ul class="items">
+                      <li><input type="checkbox" />Hair Styling @ 250 Kshs </li>
+                      <li><input type="checkbox" />Beard Styling @100 Kshs</li>
+                      <li><input type="checkbox" />Hair Dying @350 Kshs </li>
+                  </ul>
+              </div>
+               
             <input type="text" name="name" placeholder="Type your name here; example: Najma" required>
             <br>
-            <input type="number" name="phone" placeholder="Type your phone number; example: +254 7"
-              required>
+            <input type="number" name="phone" placeholder="Type your phone number; example: +254 7" required>
             <br>
             <input type="time" name="timestamp" placeholder="schedule time" required>
             <br>
@@ -159,54 +167,143 @@
         </div>
       </div>
     </div>
-    <div class="footer-container my-5">
-      <div class="row">
-        <div id="footer" class="col-md-4">
-          <div class="card">
-            <div class="card-title">
-              <h1>About us</h1>
-            </div>
-            <div class="card-body">
-              <ul>
-                <li><a href="#">Our Staff</a></li>
-                <li><a href="#">Salon</a></li>
-                <li><a href="#">Massage</a></li>
-                <li><a href="#">Barber</a></li>
-              </ul>
-            </div>
+  </div>
+
+  <div id="model2" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="row">
+          <h2>Welcome</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p>Thank you for choosing us.</p>
           </div>
+        </div>
+        <div class="row">
+          <span class="close">&times;</span>
+        </div>
+      </div>
+      <div class="modal-body">
+        <form id="spot">
+            <div id="list1" class="dropdown-check-list" tabindex="100">
+                <span class="anchor">Select Massage service</span>
+                <ul class="items">
+                    <li><input type="checkbox" />Full Body Massage@ 6500 Kshs </li>
+                    <li><input type="checkbox" />Lower Body only Massage @3000 Kshs</li>
+                    <li><input type="checkbox" />Upper Body only @ 2000 Kshs </li>
+                    <li><input type="checkbox" />Target muscle @ 1500 Kshs</li>
+                    <li><input type="checkbox" />Steam Room @300 Kshs per hour</li>
+                </ul>
+            </div>
+             
+          <input type="text" name="name" placeholder="Type your name here; example: Najma" required>
           <br>
+          <input type="number" name="phone" placeholder="Type your phone number; example: +254 7" required>
+          <br>
+          <input type="time" name="timestamp" placeholder="schedule time" required>
+          <br>
+          <button id="reserve"><a href="#model">Reserve Spot</a></button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <h3>Sibn Spa</h3>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div id="model3" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="row">
+          <h2>Welcome</h2>
         </div>
-        <div id="footer" class="col-md-4">
-          <div class="card">
-            <div class="card-title">
-              <h1>contact us</h1>
-            </div>
-            <div class="card-body">
-              <p>Reach us via email:<a href="sibnspa@gmail.com">Sibn Spa</a></p>
-              <p>Or</p>
-              <p>Call us at: +254 701 123 321</p>
-            </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p>Thank you for choosing us.</p>
           </div>
         </div>
-        <div id="footer" class="col-md-4">
-          <div class="card">
-            <div class="card-title">
-              <h1>Opening Hours</h1>
+        <div class="row">
+          <span class="close">&times;</span>
+        </div>
+      </div>
+      <div class="modal-body">
+        <form id="spot">
+            <div id="list1" class="dropdown-check-list" tabindex="100">
+                <span class="anchor">Select salon service</span>
+                <ul class="items">
+                    <li><input type="checkbox" />Our Salon Services</li>
+                    <li><input type="checkbox" />Make up @ 950 Kshs</li>
+                    <li><input type="checkbox" />Manicure @ 150 Kshs </li>
+                    <li><input type="checkbox" />Pedicure @ 250 Kshs</li>
+                    <li><input type="checkbox" />Dying or Hair straightening @300 Kshs </li>
+                    </ul>
             </div>
-            <div class="card-body">
-              <p>Monday-Friday: 8am - 10pm</p>
-              <p>Saturday-Sunday: 9am - 9pm</p>
-              <p>Public Holidays: 9am - 8:30pm</p>
-            </div>
+             
+          <input type="text" name="name" placeholder="Type your name here; example: Najma" required>
+          <br>
+          <input type="number" name="phone" placeholder="Type your phone number; example: +254 7" required>
+          <br>
+          <input type="time" name="timestamp" placeholder="schedule time" required>
+          <br>
+          <button id="reserve"><a href="#model">Reserve Spot</a></button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <h3>Sibn Spa</h3>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="footer-container my-5">
+    <div class="row">
+      <div id="footer" class="col-md-4">
+        <div class="card">
+          <div class="card-title">
+            <h1>About us</h1>
           </div>
-          <div class="copy">
-            <p><em>Copyright @2019 SIBN Spa.</em></p>
-            <p>All rights reserved.</p>
+          <div class="card-body">
+            <ul>
+              <li><a href="#">Our Staff</a></li>
+              <li><a href="#">Salon</a></li>
+              <li><a href="#">Massage</a></li>
+              <li><a href="#">Barber</a></li>
+            </ul>
+          </div>
+        </div>
+        <br>
+      </div>
+      <div id="footer" class="col-md-4">
+        <div class="card">
+          <div class="card-title">
+            <h1>contact us</h1>
+          </div>
+          <div class="card-body">
+            <p>Reach us via email:<a href="sibnspa@gmail.com">Sibn Spa</a></p>
+            <p>Or</p>
+            <p>Call us at: +254 701 123 321</p>
           </div>
         </div>
       </div>
+      <div id="footer" class="col-md-4">
+        <div class="card">
+          <div class="card-title">
+            <h1>Opening Hours</h1>
+          </div>
+          <div class="card-body">
+            <p>Monday-Friday: 8am - 10pm</p>
+            <p>Saturday-Sunday: 9am - 9pm</p>
+            <p>Public Holidays: 9am - 8:30pm</p>
+          </div>
+        </div>
+        <div class="copy">
+          <p><em>Copyright @2019 SIBN Spa.</em></p>
+          <p>All rights reserved.</p>
+        </div>
+      </div>
     </div>
+  </div>
   </div>
   </div>
   <script src="js/jquery-3.3.1.js"></script>
