@@ -11,23 +11,29 @@
   align-items: center;
   justify-content: center;
 }
+.massage,
+.salon,
+.barber {
+  width: 500px;
+  background-color: palevioletred;
+}
 .navbar-nav li:hover > ul.dropdown-menu {
   display: block;
 }
 .dropdown-submenu {
-  position:relative;
+  position: relative;
 }
-.dropdown-submenu>.dropdown-menu {
+.dropdown-submenu > .dropdown-menu {
   top: 0;
   left: 100%;
-  margin-top:-6px;
+  margin-top: -6px;
 }
 
 /* rotate caret on hover */
 .dropdown-menu > li > a:hover:after {
   text-decoration: underline;
   transform: rotate(-90deg);
-} 
+}
 
 .barber,
 .salon,
