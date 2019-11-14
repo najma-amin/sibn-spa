@@ -5,7 +5,6 @@
   height: 100vh;
   text-align: center;
   font-family: "Caveat", cursive;
-<<<<<<< HEAD
   font-size: 20px;
 }
 .hh h1 {
@@ -13,7 +12,6 @@
   font-family: "Caveat", cursive;
   font-size: 80px;
   color: black;
-=======
   font-size: 15px;
 }
 .hh h1 {
@@ -35,10 +33,8 @@
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-color: rgba(245, 238, 202, 0.877);
-font-size: 20px;
-
->>>>>>> 4aa4739fdd572cdd289c01aca98cdae47bc00563
+  color: rgba(245, 238, 202, 0.877);
+  font-size: 20px;
 }
 .home {
   display: flex;
@@ -67,22 +63,14 @@ font-size: 20px;
   text-decoration: underline;
   transform: rotate(-90deg);
 }
-<<<<<<< HEAD
 #head {
   padding-top: 200px;
-  font-size: ;
   color: red;
 }
-=======
->>>>>>> 4aa4739fdd572cdd289c01aca98cdae47bc00563
 
-.barber,
-.salon,
 .massage {
   width: 600px;
 }
-<<<<<<< HEAD
-
 .navbar {
   color: brown;
   text-align: center;
@@ -217,5 +205,3 @@ font-size: 20px;
 .row {
   text-align: center;
 }
-=======
->>>>>>> 4aa4739fdd572cdd289c01aca98cdae47bc00563
