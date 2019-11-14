@@ -5,6 +5,7 @@
   height: 100vh;
   text-align: center;
   font-family: "Caveat", cursive;
+<<<<<<< HEAD
   font-size: 20px;
 }
 .hh h1 {
@@ -12,6 +13,32 @@
   font-family: "Caveat", cursive;
   font-size: 80px;
   color: black;
+=======
+  font-size: 15px;
+}
+.hh h1 {
+  padding-top: 23%;
+  font-family: "Caveat", cursive;
+  font-size: 65px;
+  color: black;
+}
+.sv {
+  text-align: center;
+  font-family: "Poiret One", cursive;
+}
+.co {
+  font-family: "Poiret One", cursive;
+}
+.about {
+  background-image: url("../images/BD3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+color: rgba(245, 238, 202, 0.877);
+font-size: 20px;
+
+>>>>>>> 4aa4739fdd572cdd289c01aca98cdae47bc00563
 }
 .home {
   display: flex;
@@ -40,17 +67,21 @@
   text-decoration: underline;
   transform: rotate(-90deg);
 }
+<<<<<<< HEAD
 #head {
   padding-top: 200px;
   font-size: ;
   color: red;
 }
+=======
+>>>>>>> 4aa4739fdd572cdd289c01aca98cdae47bc00563
 
 .barber,
 .salon,
 .massage {
   width: 600px;
 }
+<<<<<<< HEAD
 
 .navbar {
   color: brown;
@@ -186,3 +217,5 @@
 .row {
   text-align: center;
 }
+=======
+>>>>>>> 4aa4739fdd572cdd289c01aca98cdae47bc00563
