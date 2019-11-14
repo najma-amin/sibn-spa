@@ -13,6 +13,23 @@
   font-size: 65px;
   color: black;
 }
+.sv {
+  text-align: center;
+  font-family: "Poiret One", cursive;
+}
+.co {
+  font-family: "Poiret One", cursive;
+}
+.about {
+  background-image: url("../images/BD3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+color: rgba(245, 238, 202, 0.877);
+font-size: 20px;
+
+}
 .home {
   display: flex;
   padding: 50px;
