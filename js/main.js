@@ -59,10 +59,17 @@ window.onclick = function(event){
  
 
 $('#reserve').click(function() {
-    alert("Willing to come to Ngong");
-    // var blanks = document.getElementById("spot").value;
-    // alert("We will be waiting for you" +" "+blanks);
+    alert("Willing to come to Ngong ?");
+  });
+
+$('#reserve2').click(function() {
+  alert("Willing to come to Ngong ?");
 });
+
+$('#reserve3').click(function() {
+  alert("Willing to come to Ngong ?");
+});
+
 
 let hair = document.getElementById("hair");
 let hairShave = 250;
