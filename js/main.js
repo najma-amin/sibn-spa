@@ -77,9 +77,29 @@ $('#reserve3').click(function() {
 let hair = document.getElementById("hair");
 let hairShave = 250;
 let beard = document.getElementById("beard");
-let beardstyling = 100;
+let beardStyling = 100;
 let dying = document.getElementById("dying");
 let dyingPrice = 350;
+var totalAmount= hairShave + beardStyling + dyhairPrice;
+
+if(hair == "hair"){
+  return hairShave;
+}
+else if (beard == "beard"){
+  return beardStyling;
+}
+else if (dying == "dying"){
+  return dyingPrice;
+}
+else if (beardStyling + dyingPrice){
+  return beardStyling + dyingPrice;
+}
+else if (beardStyling + dyhairPrice + hairShave){
+  return totalAmount
+}
+else {
+  alert("Choose a service");
+}
 
 let fullMassage = document.getElementById("full");
 let fullPrice = 6500;
@@ -87,10 +107,36 @@ let lowerMassage = document.getElementById("lower");
 let lowerPrice = 3000;
 let upperMassage = document.getElementById("upper");
 let upperPrice = 2000;
-let targetmassage = document.getElementById("target");
+let targetMassage = document.getElementById("target");
 let targetPrice = 1500;
 let steamRoom = document.getElementById("steam");
 let steamPrice = 300;
+
+if(fullMassage == "full"){
+  return fullPrice;
+}
+else if (lowerMassage == "lower"){
+  return lowerPrice;
+}
+else if (upperMassage == "upper"){
+  return upperPrice;
+}
+else if (targetMassage == "target"){
+  return targetPrice;
+}
+else if (steamRoom == "steam"){
+  return steamPrice;
+}
+else if (beardStyling + dyingPrice){
+  return beardStyling + dyingPrice;
+}
+else if (beardStyling + dyhairPrice + hairShave){
+  return totalAmount
+}
+else {
+  alert("Choose a service");
+}
+
 
 let dreadLocks = document.getElementById("dread");
 let dreadsPrice = 3000;
@@ -101,5 +147,23 @@ let manicurePrice = 1000;
 let pedicure = document.getElementById("pedicure");
 let pedicurePrice = 1500;
 let dyhair = document.getElementById("d-h");
-let dyhairPrice = 500;
+let dyePrice = 500;
 })
+if(hair == "hair"){
+  return hairShave;
+}
+else if (beard == "beard"){
+  return beardStyling;
+}
+else if (dying == "dying"){
+  return dyingPrice;
+}
+else if (beardStyling + dyingPrice){
+  return beardStyling + dyingPrice;
+}
+else if (beardStyling + dyhairPrice + hairShave){
+  return totalAmount
+}
+else {
+  alert("Choose a service");
+}
