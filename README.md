@@ -23,6 +23,7 @@ this wensite sibn spa is system platform that allows users to choose services su
 
 - You fork the repo
 - git clone https://github.com/najma-amin/sibn-spa
+- use atom or vscode to open code
 
 Technologies Used
 
