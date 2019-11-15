@@ -185,9 +185,6 @@
   cursor: pointer;
 }
 
-<<<<<<< HEAD
-.modal {
-=======
 
 .closer {
   color: white;
@@ -219,7 +216,6 @@
 }
 
 .modal{
->>>>>>> 320af917ca20d38fe693256c2004aa288b98981a
   width: 100vw;
 }
 
@@ -238,14 +234,10 @@
   background-color: #c71585;
   color: white;
 }
-<<<<<<< HEAD
-.row {
-=======
 .bill,
 .total{
   float: center;
 }
 .copy{
->>>>>>> 320af917ca20d38fe693256c2004aa288b98981a
   text-align: center;
 }
