@@ -185,7 +185,37 @@
   cursor: pointer;
 }
 
-.modal {
+
+.closer {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closer:hover,
+.closer:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.closeer {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closeer:hover,
+.closeer:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal{
   width: 100vw;
 }
 
@@ -204,6 +234,10 @@
   background-color: #c71585;
   color: white;
 }
-.row {
+.bill,
+.total{
+  float: center;
+}
+.copy{
   text-align: center;
 }
