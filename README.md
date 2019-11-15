@@ -7,22 +7,22 @@ this wensite sibn spa is system platform that allows users to choose services su
 
 #### List of contributors
 
-BRIAN MUTUMA
-NAJMA AMIN
-SUAD SHIRE
-ISSAC MURATHI
+- BRIAN MUTUMA
+- NAJMA AMIN
+- SUAD SHIRE
+- ISSAC MURATHI
 
 #### About authors
 
-najma [scrum master, front-end dev]
-brian[back-end dev]
-issac [back-end dev]
-suad[ front-end dev]
+- najma [scrum master, front-end dev]
+- brian[back-end dev]
+- issac [back-end dev]
+- suad[ front-end dev]
 
 #### Setup/Installation Requirements
 
-You fork the repo
-git clone https://github.com/najma-amin/sibn-spa
+- You fork the repo
+- git clone https://github.com/najma-amin/sibn-spa
 
 Technologies Used
 
