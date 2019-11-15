@@ -60,14 +60,17 @@ window.onclick = function(event){
 
 $('#reserve').click(function() {
     alert("Willing to come to Ngong ?");
+    alert("We can't wait to see you");
   });
 
 $('#reserve2').click(function() {
   alert("Willing to come to Ngong ?");
+  alert("We can't wait to see you");
 });
 
 $('#reserve3').click(function() {
   alert("Willing to come to Ngong ?");
+  alert("We can't wait to see you");
 });
 
 
