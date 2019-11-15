@@ -64,10 +64,12 @@
   transform: rotate(-90deg);
 }
 #head {
-  padding-top: 200px;
+  padding-top: 40vh;
   font-size: 16;
   color:white;
-  font-style: italic;
+  font-size: 10vh;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
 }
 
 .massage {
