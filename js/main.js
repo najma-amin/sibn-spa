@@ -59,37 +59,47 @@ window.onclick = function(event){
  
 
 $('#reserve').click(function() {
-    alert("Willing to come to Ngong");
-    // var blanks = document.getElementById("spot").value;
-    // alert("We will be waiting for you" +" "+blanks);
+    alert("Willing to come to Ngong ?");
+    alert("We can't wait to see you");
+  });
+
+$('#reserve2').click(function() {
+  alert("Willing to come to Ngong ?");
+  alert("We can't wait to see you");
 });
 
-let hair = document.getElementById("hair");
-let hairShave = 250;
-let beard = document.getElementById("beard");
-let beardstyling = 100;
-let dying = document.getElementById("dying");
-let dyingPrice = 350;
+$('#reserve3').click(function() {
+  alert("Willing to come to Ngong ?");
+  alert("We can't wait to see you");
+});
 
-let fullMassage = document.getElementById("full");
-let fullPrice = 6500;
-let lowerMassage = document.getElementById("lower");
-let lowerPrice = 3000;
-let upperMassage = document.getElementById("upper");
-let upperPrice = 2000;
-let targetmassage = document.getElementById("target");
-let targetPrice = 1500;
-let steamRoom = document.getElementById("steam");
-let steamPrice = 300;
 
-let dreadLocks = document.getElementById("dread");
-let dreadsPrice = 3000;
-let makeup = document.getElementById("makeup");
-let makeupPrice = 1500;
-let manicure = document.getElementById("manicure");
-let manicurePrice = 1000;
-let pedicure = document.getElementById("pedicure");
-let pedicurePrice = 1500;
-let dyhair = document.getElementById("d-h");
-let dyhairPrice = 500;
-})
+// let hair = document.getElementById("hair");
+// let hairShave = 250;
+// let beard = document.getElementById("beard");
+// let beardstyling = 100;
+// let dying = document.getElementById("dying");
+// let dyingPrice = 350;
+
+// let fullMassage = document.getElementById("full");
+// let fullPrice = 6500;
+// let lowerMassage = document.getElementById("lower");
+// let lowerPrice = 3000;
+// let upperMassage = document.getElementById("upper");
+// let upperPrice = 2000;
+// let targetmassage = document.getElementById("target");
+// let targetPrice = 1500;
+// let steamRoom = document.getElementById("steam");
+// let steamPrice = 300;
+
+// let dreadLocks = document.getElementById("dread");
+// let dreadsPrice = 3000;
+// let makeup = document.getElementById("makeup");
+// let makeupPrice = 1500;
+// let manicure = document.getElementById("manicure");
+// let manicurePrice = 1000;
+// let pedicure = document.getElementById("pedicure");
+// let pedicurePrice = 1500;
+// let dyhair = document.getElementById("d-h");
+// let dyhairPrice = 500;
+// })
