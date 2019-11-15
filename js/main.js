@@ -59,9 +59,24 @@ window.onclick = function(event){
  
 
 $('#reserve').click(function() {
-    alert("Willing to come to Ngong");
+    alert("Willing to come to Ngong ?");
+    alert("we cant wait to see you")
     // var blanks = document.getElementById("spot").value;
     // alert("We will be waiting for you" +" "+blanks);
+});
+
+$('#reserve2').click(function() {
+  alert("Willing to come to Ngong ?");
+  alert("we cant wait to see you")
+  // var blanks = document.getElementById("spot").value;
+  // alert("We will be waiting for you" +" "+blanks);
+});
+
+$('#reserve3').click(function() {
+  alert("Willing to come to Ngong ?");
+  alert("we cant wait to see you")
+  // var blanks = document.getElementById("spot").value;
+  // alert("We will be waiting for you" +" "+blanks);
 });
 
 let hair = document.getElementById("hair");
