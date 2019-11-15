@@ -1,7 +1,6 @@
 .sibn {
-  background: url("../images/bc1.jpg") no-repeat center center fixed;
+  background: url("../images/msssg.jpg") no-repeat center center fixed;
   background-size: cover;
-  width: 100%;
   height: 100vh;
   text-align: center;
   font-family: "Caveat", cursive;
@@ -43,15 +42,11 @@
   justify-content: center;
 }
 
-h1{
-
-}
-
-.massage,
+/* .massage,
 .salon,
 .barber {
   width: 500px;
-}
+} */
 .navbar-nav li:hover > ul.dropdown-menu {
   display: block;
 }
@@ -69,12 +64,11 @@ h1{
   transform: rotate(-90deg);
 }
 #head {
-  padding-top: 0vh;
-  font-size: 16;
-  color:rgb(44, 170, 12);
+  color:rgb(226, 23, 23);
   font-size: 10vh;
   font-family: 'Dancing Script', cursive;
   font-weight: bold;
+  margin-top: -1em;
 }
 
 .massage {
@@ -111,6 +105,11 @@ h1{
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
+}
+
+#back{
+  color: black;
+  font-weight: bold;
 }
 
 .flip-card-front {
@@ -249,4 +248,30 @@ h1{
 }
 .copy{
   text-align: center;
+}
+
+#to-top{
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  background: rgba(0, 0, 0, 0.4);
+  width: 70px;
+  height: 70px;
+  display: block;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: all 0.5 ease;
+}
+
+#to-top i{
+  color: greenyellow;
+  margin: 0;
+  position: relative;
+  left: 22px;
+  top: 20px;
+  font-size: 25px;
+}
+
+#to-top:hover{
+  background: rgba(0, 0, 0, 0.9);
 }
