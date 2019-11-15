@@ -1,39 +1,31 @@
-# Website Name
+# PROJECT NAME
 
 ## SIBN SPA .
 
-Brief description of website.
-this wensite sibn spa is system platform that allows users to choose services such as barber salon and massage.
+This wensite sibn spa is system platform that allows users to choose services such as barber salon and massage.
 
-#### List of contributors
+#### THE DEVOLOPERS
 
-- BRIAN MUTUMA
-- NAJMA AMIN
-- SUAD SHIRE
-- ISSAC MURATHI
+| Name  | Role(s)                        |
+| ----- | ------------------------------ |
+| Najma | scrum master, Basic web blocks |
+| Suad  | Basic web blocks               |
+| Brian | form validation / logic        |
+| Isaac | web interactivity/ slides      |
 
-#### About authors
-
-- najma [scrum master, front-end dev]
-- brian[back-end dev]
-- issac [back-end dev]
-- suad[ front-end dev]
-
-#### Setup/Installation Requirements
+#### SETUP/INSTALLATIONS REQUIREMENTS
 
 - You fork the repo
 - git clone https://github.com/najma-amin/sibn-spa
 - use atom or vscode to open code
 
-Technologies Used
+#### TECHNOLOGY USED
 
 - HTML
-- C.S.S
-- Javascript
-- Jquery
-- Bootstrap
+- C.S.S/ Bootstrap
+- Javascript/Jquery
 
-#### Support and contact details
+#### SUPORT AND CONTACTS DETAILS
 
 Incase of any colloboration feel free to reach out via [najmaamin10@gmail.com]
 
