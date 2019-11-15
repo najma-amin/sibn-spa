@@ -1,22 +1,19 @@
 .sibn {
-  background: url("../images/mas.jpg") no-repeat center center fixed;
+  background: url("../images/msssg.jpg") no-repeat center center fixed;
   background-size: cover;
-  width: 100%;
   height: 100vh;
   text-align: center;
   font-family: "Caveat", cursive;
   font-size: 20px;
 }
-
-.hh h1 {
+.hh {
   padding-top: 23%;
   font-family: "Caveat", cursive;
   font-size: 80px;
   color: black;
   font-size: 15px;
 }
-
-.hh h1 {
+.hh {
   padding-top: 23%;
   font-family: "Caveat", cursive;
   font-size: 65px;
@@ -49,13 +46,12 @@
   justify-content: center;
 }
 
-.massage,
+/* .massage,
 .salon,
 .barber {
   width: 500px;
-}
-
-.navbar-nav li:hover>ul.dropdown-menu {
+} */
+.navbar-nav li:hover > ul.dropdown-menu {
   display: block;
 }
 
@@ -75,10 +71,11 @@
 }
 
 #head {
-  padding-top: 200px;
-  font-size: 16;
-  color: white;
-  font-style: italic;
+  color:rgb(226, 23, 23);
+  font-size: 10vh;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  margin-top: -1em;
 }
 
 .massage {
@@ -119,6 +116,11 @@
   backface-visibility: hidden;
 }
 
+#back{
+  color: black;
+  font-weight: bold;
+}
+
 .flip-card-front {
   background-color: #bbb;
   color: black;
@@ -132,26 +134,17 @@
 
 /* The Modal (background) */
 .modal {
-  display: none;
-  /* Hidden by default */
-  position: fixed;
-  /* Stay in place */
-  z-index: 1;
-  /* Sit on top */
-  padding-top: 100px;
-  /* Location of the box */
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
   left: 0;
   top: 0;
-  width: 100%;
-  /* Full width */
-  height: 100%;
-  /* Full height */
+  width: 100%; 
+  height: 100%; 
   overflow: auto;
-  /* Enable scroll if needed */
   background-color: rgb(0, 0, 0);
-  /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4);
-  /* Black w/ opacity */
+  background-color: rgba(0, 0, 0, 0.4); 
 }
 
 /* Modal Content */
@@ -195,7 +188,9 @@
 }
 
 /* The Close Button */
-.close {
+.close,
+.closer,
+.closeer {
   color: white;
   float: right;
   font-size: 28px;
@@ -210,12 +205,12 @@
 }
 
 
-.closer {
+ /* {
   color: white;
   float: right;
   font-size: 28px;
   font-weight: bold;
-}
+} */
 
 .closer:hover,
 .closer:focus {
@@ -225,12 +220,12 @@
 }
 
 
-.closeer {
+/* .closeer {
   color: white;
   float: right;
   font-size: 28px;
   font-weight: bold;
-}
+} */
 
 .closeer:hover,
 .closeer:focus {
@@ -239,7 +234,7 @@
   cursor: pointer;
 }
 
-.modal {
+.modal{
   width: 100vw;
 }
 
@@ -258,12 +253,36 @@
   background-color: #c71585;
   color: white;
 }
-
 .bill,
 .total {
   float: center;
 }
-
-.copy {
+.copy{
   text-align: center;
+}
+
+#to-top{
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  background: rgba(0, 0, 0, 0.4);
+  width: 70px;
+  height: 70px;
+  display: block;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: all 0.5 ease;
+}
+
+#to-top i{
+  color: greenyellow;
+  margin: 0;
+  position: relative;
+  left: 22px;
+  top: 20px;
+  font-size: 25px;
+}
+
+#to-top:hover{
+  background: rgba(0, 0, 0, 0.9);
 }
