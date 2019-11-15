@@ -19,21 +19,22 @@ brian[back-end dev]
 issac [back-end dev]
 suad[ front-end dev]
 
-#### Languages
+#### Setup/Installation Requirements
 
-The website is written in english.
-
-Setup/Installation Requirements
-No setups and installations.
+You fork the repo
+git clone https://github.com/najma-amin/sibn-spa
 
 Technologies Used
-HTML
-C.S.S
-Javascript
-Jquery
-Bootstrap
-Support and contact details
-Incase of any queries contact [najmaamin10@gmail.com]
+
+- HTML
+- C.S.S
+- Javascript
+- Jquery
+- Bootstrap
+
+#### Support and contact details
+
+Incase of any colloboration feel free to reach out via [najmaamin10@gmail.com]
 
 - MIT Licence ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 - Copyright (c) 2019
