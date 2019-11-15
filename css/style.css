@@ -185,7 +185,41 @@
   cursor: pointer;
 }
 
+<<<<<<< HEAD
 .modal {
+=======
+
+.closer {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closer:hover,
+.closer:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.closeer {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closeer:hover,
+.closeer:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal{
+>>>>>>> 320af917ca20d38fe693256c2004aa288b98981a
   width: 100vw;
 }
 
@@ -204,6 +238,14 @@
   background-color: #c71585;
   color: white;
 }
+<<<<<<< HEAD
 .row {
+=======
+.bill,
+.total{
+  float: center;
+}
+.copy{
+>>>>>>> 320af917ca20d38fe693256c2004aa288b98981a
   text-align: center;
 }
