@@ -1,5 +1,5 @@
 .sibn {
-  background: url("../images/mas.jpg") no-repeat center center fixed;
+  background: url("../images/bc1.jpg") no-repeat center center fixed;
   background-size: cover;
   width: 100%;
   height: 100vh;
@@ -7,14 +7,14 @@
   font-family: "Caveat", cursive;
   font-size: 20px;
 }
-.hh h1 {
+.hh {
   padding-top: 23%;
   font-family: "Caveat", cursive;
   font-size: 80px;
   color: black;
   font-size: 15px;
 }
-.hh h1 {
+.hh {
   padding-top: 23%;
   font-family: "Caveat", cursive;
   font-size: 65px;
@@ -42,6 +42,11 @@
   align-items: center;
   justify-content: center;
 }
+
+h1{
+
+}
+
 .massage,
 .salon,
 .barber {
@@ -64,10 +69,12 @@
   transform: rotate(-90deg);
 }
 #head {
-  padding-top: 200px;
+  padding-top: 0vh;
   font-size: 16;
-  color:white;
-  font-style: italic;
+  color:rgb(44, 170, 12);
+  font-size: 10vh;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
 }
 
 .massage {
@@ -119,17 +126,17 @@
 
 /* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  width: 100%; 
+  height: 100%; 
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4); 
 }
 
 /* Modal Content */
@@ -171,7 +178,9 @@
 }
 
 /* The Close Button */
-.close {
+.close,
+.closer,
+.closeer {
   color: white;
   float: right;
   font-size: 28px;
@@ -186,12 +195,12 @@
 }
 
 
-.closer {
+ /* {
   color: white;
   float: right;
   font-size: 28px;
   font-weight: bold;
-}
+} */
 
 .closer:hover,
 .closer:focus {
@@ -201,12 +210,12 @@
 }
 
 
-.closeer {
+/* .closeer {
   color: white;
   float: right;
   font-size: 28px;
   font-weight: bold;
-}
+} */
 
 .closeer:hover,
 .closeer:focus {
